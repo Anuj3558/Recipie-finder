@@ -324,13 +324,13 @@ p.heading {
 }
 
 @media (max-width: 576px) {
-    img {
+    footer img {
         height: 20vw;
     }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-    img {
+    footer img {
         height: 15vw;
     }
 }
