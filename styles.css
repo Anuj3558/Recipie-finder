@@ -43,39 +43,13 @@
     }
 }
 
-/* Remove border from image */
-.card-img-top {
-    border: none;
-}
+
 
 .navbar {
     position: sticky;
 }
 
-/* Style the search icon */
-.bi-search {
-    font-size: 3rem;
-    /* Adjust the size of the icon */
-    padding: 0.2rem;
-    padding-left: 0.5%;
-    /* Add padding to the icon */
-    background-color: #e7e9eb;
-    /* Set the background color */
-    border-radius: 0.25rem;
-    /* Add border radius / / Add margin to separate the icon from the input */
-}
 
-/* Increase the size of the placeholder text */
-::placeholder {
-    font-size: 1.8rem;
-    /* Adjust the font size of the placeholder */
-}
-
-/* Increase the size of the button text */
-.btn-search {
-    font-size: 1.2rem;
-    /* Adjust the font size of the button text */
-}
 
 .heading {
     font-size: 100px;
@@ -334,3 +308,33 @@ p.heading {
         height: 15vw;
     }
 }
+
+
+.custom-search-bar {
+    position: absolute;
+    height: 10%;
+    left: 52%;
+    transform: translateX(-50%);
+    bottom: 0px; 
+    z-index: 1; 
+  }
+
+  @media (min-width: 768px) {
+    .custom-search-bar {
+      width: 90%; 
+    }
+  }
+
+  .card-img-top {
+    border: none;
+  }
+
+
+  ::placeholder {
+    font-size: 1.8rem; 
+  }
+
+  .btn-search {
+    width: 80px;
+    font-size: 0.9rem;
+  }
